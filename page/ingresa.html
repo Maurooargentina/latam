@@ -36,18 +36,22 @@
                 </ul>
             </nav>
         </header>
-        <article>
-            <form >
-                Usuario: <br>
-                <input type="text" name="nombre"><br>
-                Contraseña:<br>
-                <input type="password" name="contraseña"> <br>
-                
-                <input type="button" value="ingresa"  class="button">
-
-                
-            </form>
-        </article>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">No reveles tu contraseña</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Marcame</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
         <footer>
             <h3>Todos los derechos reservado Mauro Bonadeo</h3>
             </footer>
