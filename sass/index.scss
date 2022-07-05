@@ -19,12 +19,10 @@ img{
 header{
     background-image:linear-gradient(#4711f6,#a239ca) ;
 }
-
 h2{
     padding: 20px;
     margin: 10px;
 }
-
 .bodix{
     background-color: #0e0816;
 }
@@ -109,7 +107,6 @@ section p {
     box-sizing: content-box;
     display: flex;
     align-items: center; 
-    flex
    
 }
 h1.container__h1{
@@ -147,32 +144,27 @@ article.article{
   
     
 }
-.article{
+.article {
     padding: 20px;
     margin: 20px;
     display: inline-block ;
     max-width: 600px;
-    
-}
-.article img{
-    max-width: 100%;
-    border: 5px #f7e7e4c4  solid;
-  
-   
-}
-
-
-
+        img{
+        max-width: 100%;
+        border: 5px #f7e7e4c4  solid;
+         }
+        }
 
 footer{
     text-align: center;
     background-color: #4711f6;
-    padding: 20px;
+    padding: 22px;
     height: auto;
-    
+
 
 }
 @media screen and (max-width:767px) {
+
     nav{
         display: flex;
         flex-direction: column;
@@ -187,7 +179,7 @@ footer{
     }
     img{
         display: flex;
-        max-height:262px ;
+        max-height:261px ;
         object-fit: cover;
     }
     footer{
@@ -196,9 +188,9 @@ footer{
     .div__container{
         display: flex;
         flex-direction: column;
-        
+        }
     
-    }
+    
     
     .div__container img{
         max-width: auto;
@@ -220,6 +212,5 @@ footer{
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
+ align-items: flex-start;}
 }
