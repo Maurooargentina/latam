@@ -36,6 +36,19 @@ article{
     margin: 10px;
     grid-gap: 50px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .registro{
     max-width: 600px;
 }
@@ -54,7 +67,7 @@ a{
     
 }
 article.article:hover {
-    transform: scale(1.10);
+    transform: scale(0.85);
     transition: 2s;
 }
 form{
@@ -99,8 +112,6 @@ section p {
     margin: 0;
     display: flex;
     
-    
-   
    
    
 }
@@ -156,7 +167,8 @@ article.article{
 }
 .article img{
     max-width: 100%;
-    border: 5px #f7e7e4c4  solid;
+    border: 0px;
+    box-sizing: content-box;
   
    
 }
@@ -172,7 +184,7 @@ footer{
     
 
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:800git px) {
     nav{
         display: flex;
         flex-direction: column;
