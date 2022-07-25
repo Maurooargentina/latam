@@ -163,4 +163,10 @@ footer {
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; } }
+    align-items: flex-start; }
+    .container-fluid{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
