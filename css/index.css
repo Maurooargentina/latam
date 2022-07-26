@@ -18,6 +18,7 @@ img{
 }
 header{
     background-image:linear-gradient(#4711f6,#a239ca) ;
+    height: auto;
 }
 
 h2{
@@ -42,7 +43,7 @@ form{
     align-items: center;
     text-align: center;
 }
-}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -84,15 +85,21 @@ form{
     
 }
 
+
 img:first-child{
-    grid-column: 1/3;
-    grid-row: 1/3;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
-img:nth-child(4){
-    grid-column:5/7 ;
+img:nth-child(3){
+    grid-column:3/4 ;
 }
 
+img{
+    display: flex;
+        
+        object-fit: cover;
+}
 form{
     background-color: transparent;
     text-align: center;
@@ -186,6 +193,7 @@ article.article{
 
 footer{
     display: flex;
+    height: auto;
     text-align: center;
     background-color: #4711f6;
     padding: 20px;
@@ -200,11 +208,12 @@ footer{
     max-width: 100px;
     max-height: 100px;
 }
-@media screen and (max-width:365px) {
+@media screen and (max-width:508px) {
     
     header{
         display: inline-flex;
         flex-direction: column;
+        height: auto;
       
     }
     nav{
@@ -226,6 +235,7 @@ footer{
     }
     footer{
         display: inline-block;
+        height: auto;
         flex-direction: row;
         text-align: center;
         align-items: center;
